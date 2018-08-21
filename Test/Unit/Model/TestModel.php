@@ -35,12 +35,12 @@ class TestModel extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * this function tests the result of the substraction of two numbers
+     * this function tests the result of the subtraction of two numbers
      *
      */
-    public function testSubstract()
+    public function testSubtract()
     {
-        $result = $this->_model->substract(5.0, 2.0);
+        $result = $this->_model->subtract(5.0, 2.0);
         $expectedResult = 3.0;
         $this->assertEquals($expectedResult, $result);
     }

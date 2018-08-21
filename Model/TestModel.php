@@ -16,13 +16,13 @@ class TestModel
     }
 
     /**
-     * this function returns the result of the substraction of two numbers
+     * this function returns the result of the subtraction of two numbers
      *
      * @param float $a
      * @param float $b
      * @return float
      */
-    public function substract($a, $b)
+    public function subtract($a, $b)
     {
         return $a - $b;
     }
