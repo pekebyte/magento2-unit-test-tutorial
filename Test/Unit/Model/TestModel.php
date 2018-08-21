@@ -1,4 +1,4 @@
-<?
+<?php
 namespace Pekebyte\UnitTests\Test\Unit\Model;
  
 class TestModel extends \PHPUnit\Framework\TestCase
@@ -24,13 +24,10 @@ class TestModel extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * this function returns the result of the addition of two numbers
+     * this function tests the result of the addition of two numbers
      *
-     * @param float $a
-     * @param float $b
-     * @return float
      */
-    public function testAdd($a, $b)
+    public function testAdd()
     {
         $result = $this->_model->add(5.0, 5.0);
         $expectedResult = 10.0;
@@ -38,13 +35,10 @@ class TestModel extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * this function returns the result of the substraction of two numbers
+     * this function tests the result of the substraction of two numbers
      *
-     * @param float $a
-     * @param float $b
-     * @return float
      */
-    public function testSubstract($a, $b)
+    public function testSubstract()
     {
         $result = $this->_model->substract(5.0, 2.0);
         $expectedResult = 3.0;
@@ -52,13 +46,10 @@ class TestModel extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * this function returns the result of the multiplication of two numbers
+     * this function tests the result of the multiplication of two numbers
      *
-     * @param float $a
-     * @param float $b
-     * @return float
      */
-    public function testMultiply($a, $b)
+    public function testMultiply()
     {
         $result = $this->_model->multiply(5.0, 10.0);
         $expectedResult = 50.0;
@@ -66,13 +57,9 @@ class TestModel extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * this function returns the result of the division of two numbers
-     *
-     * @param float $a
-     * @param float $b
-     * @return float
+     * this function tests the result of the division of two numbers
      */
-    public function testDivide($a, $b)
+    public function testDivide()
     {
         $result = $this->_model->divide(6.0, 2.0);
         $expectedResult = 3.0;

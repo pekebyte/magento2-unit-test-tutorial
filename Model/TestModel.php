@@ -1,4 +1,4 @@
-<?
+<?php
 namespace Pekebyte\UnitTests\Model;
  
 class TestModel
